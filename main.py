@@ -1,6 +1,7 @@
 import os
 import openai
-from aiogram import Bot, Dispatcher, executor, types
+from aiogram import Bot, Dispatcher, types
+from aiogram.utils.executor import start_polling
 from keep_alive import keep_alive
 
 bot = Bot(token='5998411395:AAGd5hnfCzVexY1F0Ryy5XH862fSfflvPdg')
