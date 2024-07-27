@@ -3,9 +3,9 @@ import openai
 from aiogram import Bot, Dispatcher, executor, types
 from keep_alive import keep_alive
 
-bot = Bot(token='YOUR_BOT_TOKEN')
+bot = Bot(token='5998411395:AAGd5hnfCzVexY1F0Ryy5XH862fSfflvPdg')
 dp = Dispatcher(bot)
-openai.api_key = "YOUR_OPENAI_API_KEY"
+openai.api_key = "sk-proj-dku33dCFA4CRNwVUkjRsT3BlbkFJfZWrgeJenYTzNSiNo2Xn"
 
 keep_alive()
 
